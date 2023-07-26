@@ -1,5 +1,6 @@
 import {homePageLoad} from './initial-page-load.js';
 import * as menuLoad from './menuLoad.js';
+import * as contactLoad from './contactLoad.js';
 
 const contentDiv = document.createElement('div');
 contentDiv.setAttribute('id', 'content');
@@ -34,15 +35,22 @@ document.body.appendChild(contentDiv2);
 homePageLoad();
 
 function clearTab() {
-
-
+    contentDiv2.replaceChildren();
 }
 
-const menuButton = document.getElementById("menu");
 
+button3.addEventListener('click', ()=> {
+    clearTab();
+    homePageLoad();
+});
+
+const menuButton = document.getElementById("menu");
 menuButton.addEventListener('click', ()=> {
-    
-    
+    clearTab();
     menuLoad.load();
 });
 
+button2.addEventListener('click', ()=> {
+    clearTab();
+    contactLoad.load();
+});

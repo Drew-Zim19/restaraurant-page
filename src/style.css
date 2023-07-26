@@ -17,12 +17,28 @@ body {
     align-items: center;
 }
 
+
+button{
+    background-color: palevioletred;
+    font-size: large;
+    font-weight: bold;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+
 #content2{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-self: center;
     align-items: center;
+    text-align: center;
+    margin-top: 15px;
+}
+
+div > h5{
+    font-size: 1.1rem;
 }
 
 .bgImage{
