@@ -1,0 +1,22 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    background-size: cover;
+}
+
+body {
+    background-color: seashell;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+}
+
+.bgImage{
+    max-height: 400px;
+}
