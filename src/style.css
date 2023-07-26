@@ -17,6 +17,15 @@ body {
     align-items: center;
 }
 
+#content2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+}
+
 .bgImage{
     max-height: 400px;
+    margin-top: 15px;
 }

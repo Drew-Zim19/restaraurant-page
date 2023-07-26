@@ -1,10 +1,6 @@
-export function pageLoad(){
-    const contentDiv = document.querySelector("#content");
+export function homePageLoad(){
 
-    const header = document.createElement('h1');
-    header.textContent = "Welcome to Drew's Rockin Pizza Tavern";
-    contentDiv.appendChild(header);
-
+    const contentDiv = document.querySelector("#content2");
     const img = document.createElement('img');
     img.src = "../src/assets/pizza-image.avif";
     img.classList.add("bgImage");
